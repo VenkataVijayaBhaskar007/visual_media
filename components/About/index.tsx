@@ -19,7 +19,7 @@ const About = () => {
   return (
     <>
 
- 
+
 <section className="border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black">
        
           
