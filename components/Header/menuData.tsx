@@ -36,34 +36,34 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 31,
-        title: "Atoms digital solutins",
+        title: "Atoms Group",
         newTab: false,
-        path: "/atom",
+        path: "https://atoms-group2.vercel.app/",
       },
       {
         id: 34,
         title: "Atoms Education",
         newTab: false,
-        path: "/blog",
+        path: "https://atoms-education-omega.vercel.app/",
       },
       {
         id: 35,
-        title: "Atoms hospitality",
+        title: "Atoms Digital Solutins ",
         newTab: false,
-        path: "/atoms",
+        path: "https://digital-solutions-orpin.vercel.app/",
       },
       {
         id: 35,
-        title: "Way CT",
+        title: "Atoms 2.O",
         newTab: false,
-        path: "/atoms",
+        path: "http://atoms2-0.vercel.app",
       },
-      {
-        id: 35.1,
-        title: "Support",
-        newTab: false,
-        path: "/support",
-      },
+      // {
+      //   id: 35.1,
+      //   title: "Support",
+      //   newTab: false,
+      //   path: "/support",
+      // },
       {
         id: 36,
         title: "",
