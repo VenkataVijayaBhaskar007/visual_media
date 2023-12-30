@@ -40,7 +40,7 @@ const About = () => {
 </div> */}
 
 
-<div className="flex items-center justify-center">
+<div id="Gallery" className="flex items-center justify-center">
       <h2 className="text-center mb-6 text-2xl font-bold text-black dark:text-white xl:text-3xl 2xl:text-4xl  ">
   <span className="text-content  nowraps">Visual Media Gallery</span>
 </h2>
