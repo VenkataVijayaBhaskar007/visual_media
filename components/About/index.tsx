@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useSpring } from 'react-spring';
 
-import "./style.css"
+
 
 const About = () => {
   const styles = useSpring({
@@ -32,7 +32,7 @@ const About = () => {
               
        
        
-           <img className="md:w-11" src="./images/clients/1.png" alt="client-1 logo image" />
+           <img src="./images/clients/1.png" alt="client-1 logo image" />
        
        
        
@@ -201,7 +201,6 @@ const About = () => {
        </div>
        
        </section>
-
 
 
 
