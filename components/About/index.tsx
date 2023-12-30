@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import { useSpring } from 'react-spring';
+import MyGallery from "./Demo";
+// import Page from "./Demo";
 
 
 
@@ -18,13 +20,47 @@ const About = () => {
 
   return (
     <>
+{/* <Page/> */}
+{/* <div className="relative flex overflow-x-hidden">
+  <div className="py-12 animate-marquee whitespace-nowrap">
+    <span className="text-4xl mx-4">Marquee Item 1</span>
+    <span className="text-4xl mx-4">Marquee Item 2</span>
+    <span className="text-4xl mx-4">Marquee Item 3</span>
+    <span className="text-4xl mx-4">Marquee Item 4</span>
+    <span className="text-4xl mx-4">Marquee Item 5</span>
+  </div>
 
+  <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+    <span className="text-4xl mx-4">Marquee Item 1</span>
+    <span className="text-4xl mx-4">Marquee Item 2</span>
+    <span className="text-4xl mx-4">Marquee Item 3</span>
+    <span className="text-4xl mx-4">Marquee Item 4</span>
+    <span className="text-4xl mx-4">Marquee Item 5</span>
+  </div>
+</div> */}
+
+
+<div className="flex items-center justify-center">
+      <h2 className="text-center mb-6 text-2xl font-bold text-black dark:text-white xl:text-3xl 2xl:text-4xl  ">
+  <span className="text-content  nowraps">Visual Media Gallery</span>
+</h2>
+
+
+</div>
+<MyGallery/>
 
 <section className="border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black">
        
           
            
 
+<div className="flex items-center justify-center">
+      <h2 className="text-center mb-6 text-2xl font-bold text-black dark:text-white xl:text-3xl 2xl:text-4xl  ">
+  <span className="text-content  nowraps">Our Clients</span>
+</h2>
+
+
+</div>
 
 
        <div className="logos" >

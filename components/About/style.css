@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
 html, body {width: auto!important; overflow-x: hidden!important} 
 
 .imgg { 
@@ -194,4 +194,27 @@ html, body {width: auto!important; overflow-x: hidden!important}
   
   .relative:hover .image-info {
     opacity: 1;
+  }
+  .marquee {
+    --gap: 1rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+  }
+  
+  .marquee__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+  }
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
   }
