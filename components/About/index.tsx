@@ -39,7 +39,23 @@ const About = () => {
   </div>
 </div> */}
 
-
+<motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                y: -40,
+              },
+              visible: {
+                opacity: 1,
+                y: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.1 }}
+         
+    className="animate_left"
+  >
 <div id="Gallery" className="flex items-center justify-center">
       <h2 className="text-center mb-6 text-2xl font-bold text-black dark:text-white xl:text-3xl 2xl:text-4xl  ">
   <span className="text-content  nowraps">Visual Media Gallery</span>
@@ -47,12 +63,47 @@ const About = () => {
 
 
 </div>
+</motion.div>
+<motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                y: -40,
+              },
+              visible: {
+                opacity: 1,
+                y: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.1 }}
+         
+    className="animate_left"
+  >
 <MyGallery/>
+</motion.div>
 
 <section className="border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black">
        
           
-           
+<motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                y: -40,
+              },
+              visible: {
+                opacity: 1,
+                y: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.1 }}
+         
+    className="animate_left"
+  >      
 
 <div className="flex items-center justify-center">
       <h2 className="text-center mb-6 text-2xl font-bold text-black dark:text-white xl:text-3xl 2xl:text-4xl  ">
@@ -61,7 +112,7 @@ const About = () => {
 
 
 </div>
-
+</motion.div>
 
        <div className="logos" >
                <div className="logos-slide" >

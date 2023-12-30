@@ -220,7 +220,7 @@ const Hero = () => {
             variants={{
               hidden: {
                 opacity: 0,
-                y: 40,
+                y: -40,
               },
               visible: {
                 opacity: 1,
