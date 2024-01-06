@@ -288,8 +288,109 @@ const About = () => {
        </div>
        
        </section>
+{/* 
+<section>
+<div className="relative bg-white ">
+    <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6  sm:static">
+     
+    <div className="max-auto aboutsec px-4 ">
+        <div className="flex flex-wrap ">
+        <motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                x: -40,
+              },
+              visible: {
+                opacity: 1,
+                x: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.1 }}
+         
+    className="animate_left"
+  >
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<div className="lg:order-1 lg:w-1/2 " >
+     
+      <h2 className="text-with-circle background-circle  text2xl font-bold text-black dark:text-white 2xl:text-hero nowraps">
+        <span className="text-content">Street Photography</span>
+      </h2>
+      <h2 className=" mb-1 text-2xl font-regular text-gray-500 dark:text-white">
+        <span className="text-content">Capturing the Soul of the Streets</span>
+      </h2>
+      <div className="px-3">
+        <p>
+        Experience the authentic vibe of urban life captured in every frame, where each alley, every face, and every fleeting moment narrates a unique story. Immerse yourself in the art of candid storytelling as our lens reveals the poetry hidden in the ordinary. Dive into the dynamic rhythm of the streets, where every shot is a symphony of life's spontaneous moments. Join us in a gallery that celebrates the spirit, diversity, and untold tales found within the vibrant tapestry of urban landscapes
+        </p>
+        </div>
+    </div>
+  </motion.div>
+  </div>
+  </div>
+
+
+        <div className="pr-90">
+          <div className="mt-10">
+           
+            <div aria-hidden="true" className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full">
+              <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+                <div className="flex items-center space-x-6 lg:space-x-8">
+                  <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
+                      <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg" alt="" className="w-full h-full object-center object-cover"/>
+                    </div>
+                    <div className="w-44 h-64 rounded-lg overflow-hidden">
+                      <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg" alt="" className="w-full h-full object-center object-cover"/>
+                    </div>
+                  </div>
+                  <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div className="w-44 h-64 rounded-lg overflow-hidden">
+                      <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg" alt="" className="w-full h-full object-center object-cover"/>
+                    </div>
+                    <div className="w-44 h-64 rounded-lg overflow-hidden">
+                      <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg" alt="" className="w-full h-full object-center object-cover"/>
+                    </div>
+                    <div className="w-44 h-64 rounded-lg overflow-hidden">
+                      <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg" alt="" className="w-full h-full object-center object-cover"/>
+                    </div>
+                  </div>
+                  <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div className="w-44 h-64 rounded-lg overflow-hidden">
+                      <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg" alt="" className="w-full h-full object-center object-cover"/>
+                    </div>
+                    <div className="w-44 h-64 rounded-lg overflow-hidden">
+                      <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg" alt="" className="w-full h-full object-center object-cover"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> */}
 
 </>
 );
