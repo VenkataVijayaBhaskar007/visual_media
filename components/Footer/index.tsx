@@ -35,11 +35,7 @@ export default function Footer() {
     d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
 </svg>
       </a>
-      <a href="#!" className="mr-6 text-neutral-800 dark:text-neutral-200" style={{marginTop:"1px"}}>
-      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" className="h-4 w-4"  fill="white" viewBox="0 0 50 50">
-<path d="M 6.9199219 6 L 21.136719 26.726562 L 6.2285156 44 L 9.40625 44 L 22.544922 28.777344 L 32.986328 44 L 43 44 L 28.123047 22.3125 L 42.203125 6 L 39.027344 6 L 26.716797 20.261719 L 16.933594 6 L 6.9199219 6 z"></path>
-</svg>
-      </a>
+      
       <a href="#!" className="mr-6 text-neutral-800 dark:text-neutral-200">
       <svg
   xmlns="http://www.w3.org/2000/svg"
