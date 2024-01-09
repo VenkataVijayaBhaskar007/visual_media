@@ -51,7 +51,7 @@ export default function Footer() {
 </svg>
 
       </a>
-      <a href="#!" className="mr-6 text-neutral-800 dark:text-neutral-200">
+      <a href="https://instagram.com/visualmedia.atoms?igshid=NGVhN2U2NjQ0Yg==" className="mr-6 text-neutral-800 dark:text-neutral-200">
         <svg
           xmlns="http://www.w3.org/2000/svg"
                className="h-5 w-4"
