@@ -19,7 +19,7 @@ export default function Footer() {
                 <img className=" max-w-full mx-auto md:max-w-none h-auto" src="./images/logo/Atoms-Digital-White.png" width={100} height={60} alt="Features 02" />
                 </Link>
               </div>
-              <div className="text-gray-400  hover:text-gray-100 transition duration-150 ease-in-out z-999">Stay connected with Atoms Software Services, a pioneering branch of the Atoms Group, as we make strides in software services. Explore innovative web applications and exceptional UI/UX designs. Committed to excellence, we actively contribute to the success of ventures. Join us on our evolving journey in the dynamic field of software services.</div>
+              <div className="text-gray-400  hover:text-gray-100 transition duration-150 ease-in-out z-999">Stay engaged with Atoms Visual Media, a dynamic branch of the Atoms Group, as we excel in visual world. Explore captivating videos, striking photography, and innovative visual experiences. Committed to excellence, we actively contribute to the visual success of brands. Join us on our creative journey in the dynamic field of visual media.</div>
             </div>
             <div className="order-1 md:order-2 flex  justify-center sm:mt-0 mr-0 md:ml-20 z-999">
             <div className="container ">
