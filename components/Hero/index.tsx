@@ -203,7 +203,7 @@ const Hero = () => {
       </h2>
       <div className="px-3">
         <p>
-        At Atoms Visual media services, our comprehensive suite of services revolves around three core pillars: web development, app development, and UI/UX designing. In the realm of web development, our skilled team harnesses the latest technologies to create dynamic and scalable solutions tailored to our clients' unique needs. Whether it's building robust web applications or crafting engaging mobile apps, our app development expertise ensures seamless and user-friendly experiences across platforms. Complementing these technical strengths is our proficiency in UI/UX designing, where we prioritize aesthetics and user interaction. Our commitment to delivering high-quality software solutions is unwavering, and we take pride in contributing to the success of businesses through our versatile and innovative services...
+        At Atoms Visual Media Services, we focus on three core pillars: captivating video creation, stunning photography, and innovative visual experiences. Our skilled team harnesses creativity and the latest technologies to craft dynamic and visually engaging content tailored to our clients' unique needs. From creating compelling videos to capturing striking moments through photography, our expertise ensures a seamless and captivating visual journey. Complementing our creative strengths is our commitment to delivering high-quality visual media solutions, contributing to the success of brands through versatile and innovative content.
         </p>
         </div>
     </div>
